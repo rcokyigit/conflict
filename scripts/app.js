@@ -9,7 +9,7 @@ Application.onUnhandledError = Application_OnError;
  * @this Application
  */
 function Application_OnStart(e) {
-	include("pages/index.js");
+	include("pages/index.js"); //recep was here
 	Pages.page1.show();
 }
 
